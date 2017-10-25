@@ -37,7 +37,6 @@ class Pin {
         self.backgroundColor = UIColor(hex:String(backgroundColorHex))
         self.height = CGFloat(heightOfImage)
         self.width = CGFloat(widthOfImage)
-        self.width = 867
     }
     
     func heightForComment(_ font: UIFont, width: CGFloat) -> CGFloat {

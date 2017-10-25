@@ -160,6 +160,7 @@
                     <connections>
                         <outlet property="collectionView" destination="Xun-gY-sej" id="zO0-1E-JxB"/>
                         <outlet property="searchBar" destination="HA2-1W-MAp" id="aSW-sO-Nmr"/>
+                        <outlet property="searchBarConstraint" destination="eEE-Ph-Vgl" id="yvW-VE-m5K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="31O-KY-g19" sceneMemberID="firstResponder"/>

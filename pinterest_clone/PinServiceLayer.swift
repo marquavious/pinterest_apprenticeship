@@ -28,7 +28,6 @@ struct PinServiceLayer {
                 }
                 completion(nil, tempArray)
             } catch {
-                print("ERROR")
                 completion(NSError(), [])
                 return
             }
