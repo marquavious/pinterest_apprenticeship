@@ -18,11 +18,12 @@ struct PinServiceLayer {
         var tempArray = [Pin]()
         
         if let path = Bundle.main.path(forResource: "pins_formatted", ofType: "json") {
+            
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path))
                 let jsonResult = JSON(data)
-                for i in jsonResult.arrayValue {
-                    if let pin = Pin(i) {
+                for jsonData in jsonResult.arrayValue {
+                    if let pin = Pin(jsonData) { // If it passes the failiable init
                         tempArray.append(pin)
                     }
                 }

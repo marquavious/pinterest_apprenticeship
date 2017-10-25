@@ -21,7 +21,7 @@
         <!--Home-->
         <scene sceneID="Sqd-R4-mzR">
             <objects>
-                <viewController id="iQ1-cV-6ct" customClass="ViewController" customModule="Pinterest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="iQ1-cV-6ct" customClass="ViewController" customModule="pinterest_clone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="l8d-7M-Hq2"/>
                         <viewControllerLayoutGuide type="bottom" id="mQQ-ym-6NZ"/>
@@ -33,16 +33,16 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Xun-gY-sej">
                                 <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <collectionViewLayout key="collectionViewLayout" id="7gJ-91-agr" customClass="PinterestLayout" customModule="Pinterest" customModuleProvider="target"/>
+                                <collectionViewLayout key="collectionViewLayout" id="7gJ-91-agr" customClass="PinterestLayout" customModule="pinterest_clone" customModuleProvider="target"/>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MainFeedCollectionViewCell" id="2Y9-Sb-eRq" customClass="MainFeedCollectionViewCell" customModule="Pinterest" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MainFeedCollectionViewCell" id="2Y9-Sb-eRq" customClass="MainFeedCollectionViewCell" customModule="pinterest_clone" customModuleProvider="target">
                                         <rect key="frame" x="30.5" y="0.0" width="314" height="351"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="314" height="351"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T8Q-eK-6Uo" customClass="RoundedCornersView" customModule="Pinterest" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T8Q-eK-6Uo" customClass="RoundedCornersView" customModule="pinterest_clone" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="314" height="351"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tpr-8d-ZF8">
@@ -173,7 +173,7 @@
         <!--Explore-->
         <scene sceneID="ap4-7N-Fw2">
             <objects>
-                <viewController id="SyL-qA-n31" customClass="CaseStudyWebViewController" customModule="Pinterest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SyL-qA-n31" customClass="CaseStudyWebViewController" customModule="pinterest_clone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ktt-nZ-di9"/>
                         <viewControllerLayoutGuide type="bottom" id="z4S-uG-4fV"/>
@@ -188,7 +188,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6T8-qY-NUM">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="598"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="34"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.74117647060000003" green="0.031372549020000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -232,7 +232,7 @@
         <!--Notifications-->
         <scene sceneID="ect-IK-N9U">
             <objects>
-                <viewController id="q8r-Xx-yM7" customClass="ConnectAndCareWebViewController" customModule="Pinterest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="q8r-Xx-yM7" customClass="ConnectAndCareWebViewController" customModule="pinterest_clone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="07g-T4-WwX"/>
                         <viewControllerLayoutGuide type="bottom" id="Zfh-jU-CPq"/>
@@ -247,7 +247,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxb-s1-VcS">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="598"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="34"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.74117647060000003" green="0.031372549020000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -291,7 +291,7 @@
         <!--Saved-->
         <scene sceneID="uK4-wJ-PpI">
             <objects>
-                <viewController id="wgi-jQ-kVx" customClass="SoundcloudWebViewController" customModule="Pinterest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wgi-jQ-kVx" customClass="SoundcloudWebViewController" customModule="pinterest_clone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CcN-0A-Tjf"/>
                         <viewControllerLayoutGuide type="bottom" id="oz6-1R-348"/>
@@ -306,7 +306,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qms-RI-9Z8">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="598"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="34"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.74117647060000003" green="0.031372549020000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>

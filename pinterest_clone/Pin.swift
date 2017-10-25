@@ -13,28 +13,25 @@ class Pin {
     
     var description: String
     var imageLink: String
-    var backgroundColor: UIColor
+    var dominantBackgroundColor: UIColor
     var height: CGFloat
     var width: CGFloat
-    var postUrl: String
     
     init?(_ json: JSON) {
-        guard
+        
+        guard // If the posts dont have these minimun requirements, return nil
         let imageLink = json["images"]["orig"]["url"].string,
         let heightOfImage = json["images"]["orig"]["height"].float,
         let widthOfImage = json["images"]["orig"]["width"].float,
-        let postUrl = json["link"].string,
         var backgroundColorHex = json["dominant_color"].string
-        else {
-            return nil
-        }
+        else { return nil }
 
+        // Edit hex string
         backgroundColorHex.remove(at: backgroundColorHex.startIndex)
         
-        self.description = json["description"].stringValue
+        self.description = json["description"].stringValue // Some post dont have a description
         self.imageLink = imageLink
-        self.postUrl = postUrl
-        self.backgroundColor = UIColor(hex:String(backgroundColorHex))
+        self.dominantBackgroundColor = UIColor(hex:String(backgroundColorHex))
         self.height = CGFloat(heightOfImage)
         self.width = CGFloat(widthOfImage)
     }

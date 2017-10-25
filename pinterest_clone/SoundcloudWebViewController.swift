@@ -17,7 +17,7 @@ class SoundcloudWebViewController: UIViewController,UIWebViewDelegate {
          self.webView.alpha = 0
          webView.delegate = self
         
-        displayAlert("Check out my music!", message: "I am low-key a producer on the side. This is where I can unleash my creativity! Check them out!...Iv'e been told im quite alright 🔥👀")
+        displayAlert("Check out my music!", message: "I am a producer on the side. This is where I usually unleash my creativity. Check them out!...Iv'e been told they're fire 🔥👀")
 
         guard let url = URL(string: "https://soundcloud.com/marquavious-draggon") else {
             return
