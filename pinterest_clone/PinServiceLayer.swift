@@ -26,10 +26,9 @@ struct PinServiceLayer {
                         tempArray.append(pin)
                     }
                 }
-                completion(nil, tempArray)
+                return completion(nil, tempArray)
             } catch {
-                completion(NSError(), [])
-                return
+               return completion(NSError(), [])
             }
         }
     }
