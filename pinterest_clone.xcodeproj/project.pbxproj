@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21A7FCBD49E31C88F66CC77D /* Pods_pinterest_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB6C3485E7A913A60124AA8 /* Pods_pinterest_clone.framework */; };
+		C07175C21FA01D4F0001EA58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07175C11FA01D4F0001EA58 /* AppDelegate.swift */; };
+		C07175C71FA01D4F0001EA58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07175C51FA01D4F0001EA58 /* Main.storyboard */; };
+		C07175C91FA01D4F0001EA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07175C81FA01D4F0001EA58 /* Assets.xcassets */; };
+		C07175CC1FA01D4F0001EA58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07175CA1FA01D4F0001EA58 /* LaunchScreen.storyboard */; };
+		C07175D61FA021360001EA58 /* ViewControllerExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07175D31FA021360001EA58 /* ViewControllerExtentions.swift */; };
+		C07175D71FA021360001EA58 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07175D41FA021360001EA58 /* PinterestLayout.swift */; };
+		C07175D81FA021360001EA58 /* ColorExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07175D51FA021360001EA58 /* ColorExtentions.swift */; };
+		C07175DA1FA0213F0001EA58 /* pins_formatted.json in Resources */ = {isa = PBXBuildFile; fileRef = C07175D91FA0213F0001EA58 /* pins_formatted.json */; };
+		C07175DC1FA0215E0001EA58 /* MainFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07175DB1FA0215E0001EA58 /* MainFeedCollectionViewCell.swift */; };
+		C07175DF1FA0216C0001EA58 /* PinServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07175DD1FA0216C0001EA58 /* PinServiceLayer.swift */; };
+		C07175E01FA0216C0001EA58 /* RoundedCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07175DE1FA0216C0001EA58 /* RoundedCornersView.swift */; };
+		C07175E21FA021740001EA58 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07175E11FA021740001EA58 /* Pin.swift */; };
+		C07175E91FA021800001EA58 /* CaseStudyWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07175E41FA0217F0001EA58 /* CaseStudyWebViewController.swift */; };
+		C07175EA1FA021800001EA58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07175E51FA0217F0001EA58 /* ViewController.swift */; };
+		C07175EB1FA021800001EA58 /* ConnectAndCareWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07175E61FA0217F0001EA58 /* ConnectAndCareWebViewController.swift */; };
+		C07175EC1FA021800001EA58 /* SoundcloudWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07175E71FA021800001EA58 /* SoundcloudWebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B58AB89D097F2EB13B9F4EA /* Pods-pinterest_clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinterest_clone.release.xcconfig"; path = "Pods/Target Support Files/Pods-pinterest_clone/Pods-pinterest_clone.release.xcconfig"; sourceTree = "<group>"; };
+		426ABB3E201DC1D9817F344C /* Pods-pinterest_clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinterest_clone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pinterest_clone/Pods-pinterest_clone.debug.xcconfig"; sourceTree = "<group>"; };
+		C07175BE1FA01D4F0001EA58 /* pinterest_clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinterest_clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07175C11FA01D4F0001EA58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C07175C61FA01D4F0001EA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C07175C81FA01D4F0001EA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C07175CB1FA01D4F0001EA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C07175CD1FA01D4F0001EA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07175D31FA021360001EA58 /* ViewControllerExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtentions.swift; sourceTree = "<group>"; };
+		C07175D41FA021360001EA58 /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		C07175D51FA021360001EA58 /* ColorExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtentions.swift; sourceTree = "<group>"; };
+		C07175D91FA0213F0001EA58 /* pins_formatted.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pins_formatted.json; sourceTree = "<group>"; };
+		C07175DB1FA0215E0001EA58 /* MainFeedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		C07175DD1FA0216C0001EA58 /* PinServiceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinServiceLayer.swift; sourceTree = "<group>"; };
+		C07175DE1FA0216C0001EA58 /* RoundedCornersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornersView.swift; sourceTree = "<group>"; };
+		C07175E11FA021740001EA58 /* Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
+		C07175E41FA0217F0001EA58 /* CaseStudyWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseStudyWebViewController.swift; sourceTree = "<group>"; };
+		C07175E51FA0217F0001EA58 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../Pinterest/Pinterest/View Controllers/ViewController.swift"; sourceTree = "<group>"; };
+		C07175E61FA0217F0001EA58 /* ConnectAndCareWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectAndCareWebViewController.swift; sourceTree = "<group>"; };
+		C07175E71FA021800001EA58 /* SoundcloudWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundcloudWebViewController.swift; sourceTree = "<group>"; };
+		CFB6C3485E7A913A60124AA8 /* Pods_pinterest_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pinterest_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C07175BB1FA01D4F0001EA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A7FCBD49E31C88F66CC77D /* Pods_pinterest_clone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90CAF889EBF90C5B49EFF96C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				426ABB3E201DC1D9817F344C /* Pods-pinterest_clone.debug.xcconfig */,
+				3B58AB89D097F2EB13B9F4EA /* Pods-pinterest_clone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BBE773050A31BF15DF03D8F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFB6C3485E7A913A60124AA8 /* Pods_pinterest_clone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C07175B51FA01D4F0001EA58 = {
+			isa = PBXGroup;
+			children = (
+				C07175C01FA01D4F0001EA58 /* pinterest_clone */,
+				C07175BF1FA01D4F0001EA58 /* Products */,
+				90CAF889EBF90C5B49EFF96C /* Pods */,
+				BBE773050A31BF15DF03D8F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C07175BF1FA01D4F0001EA58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07175BE1FA01D4F0001EA58 /* pinterest_clone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C07175C01FA01D4F0001EA58 /* pinterest_clone */ = {
+			isa = PBXGroup;
+			children = (
+				C07175D91FA0213F0001EA58 /* pins_formatted.json */,
+				C07175D51FA021360001EA58 /* ColorExtentions.swift */,
+				C07175D41FA021360001EA58 /* PinterestLayout.swift */,
+				C07175D31FA021360001EA58 /* ViewControllerExtentions.swift */,
+				C07175C11FA01D4F0001EA58 /* AppDelegate.swift */,
+				C07175E61FA0217F0001EA58 /* ConnectAndCareWebViewController.swift */,
+				C07175E71FA021800001EA58 /* SoundcloudWebViewController.swift */,
+				C07175DB1FA0215E0001EA58 /* MainFeedCollectionViewCell.swift */,
+				C07175C51FA01D4F0001EA58 /* Main.storyboard */,
+				C07175DD1FA0216C0001EA58 /* PinServiceLayer.swift */,
+				C07175E11FA021740001EA58 /* Pin.swift */,
+				C07175E41FA0217F0001EA58 /* CaseStudyWebViewController.swift */,
+				C07175E51FA0217F0001EA58 /* ViewController.swift */,
+				C07175DE1FA0216C0001EA58 /* RoundedCornersView.swift */,
+				C07175C81FA01D4F0001EA58 /* Assets.xcassets */,
+				C07175CA1FA01D4F0001EA58 /* LaunchScreen.storyboard */,
+				C07175CD1FA01D4F0001EA58 /* Info.plist */,
+			);
+			path = pinterest_clone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C07175BD1FA01D4F0001EA58 /* pinterest_clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07175D01FA01D4F0001EA58 /* Build configuration list for PBXNativeTarget "pinterest_clone" */;
+			buildPhases = (
+				C0A549E91D0C7CAAC4BA30D3 /* [CP] Check Pods Manifest.lock */,
+				C07175BA1FA01D4F0001EA58 /* Sources */,
+				C07175BB1FA01D4F0001EA58 /* Frameworks */,
+				C07175BC1FA01D4F0001EA58 /* Resources */,
+				FA151675A92451EA93C4588C /* [CP] Embed Pods Frameworks */,
+				F2A097497A77683AC8B46D93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pinterest_clone;
+			productName = pinterest_clone;
+			productReference = C07175BE1FA01D4F0001EA58 /* pinterest_clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C07175B61FA01D4F0001EA58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Marquavious Draggon";
+				TargetAttributes = {
+					C07175BD1FA01D4F0001EA58 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C07175B91FA01D4F0001EA58 /* Build configuration list for PBXProject "pinterest_clone" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C07175B51FA01D4F0001EA58;
+			productRefGroup = C07175BF1FA01D4F0001EA58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C07175BD1FA01D4F0001EA58 /* pinterest_clone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C07175BC1FA01D4F0001EA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07175CC1FA01D4F0001EA58 /* LaunchScreen.storyboard in Resources */,
+				C07175C91FA01D4F0001EA58 /* Assets.xcassets in Resources */,
+				C07175DA1FA0213F0001EA58 /* pins_formatted.json in Resources */,
+				C07175C71FA01D4F0001EA58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0A549E91D0C7CAAC4BA30D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A097497A77683AC8B46D93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pinterest_clone/Pods-pinterest_clone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA151675A92451EA93C4588C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pinterest_clone/Pods-pinterest_clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C07175BA1FA01D4F0001EA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07175DC1FA0215E0001EA58 /* MainFeedCollectionViewCell.swift in Sources */,
+				C07175D71FA021360001EA58 /* PinterestLayout.swift in Sources */,
+				C07175EB1FA021800001EA58 /* ConnectAndCareWebViewController.swift in Sources */,
+				C07175E91FA021800001EA58 /* CaseStudyWebViewController.swift in Sources */,
+				C07175E21FA021740001EA58 /* Pin.swift in Sources */,
+				C07175E01FA0216C0001EA58 /* RoundedCornersView.swift in Sources */,
+				C07175EA1FA021800001EA58 /* ViewController.swift in Sources */,
+				C07175C21FA01D4F0001EA58 /* AppDelegate.swift in Sources */,
+				C07175EC1FA021800001EA58 /* SoundcloudWebViewController.swift in Sources */,
+				C07175D81FA021360001EA58 /* ColorExtentions.swift in Sources */,
+				C07175DF1FA0216C0001EA58 /* PinServiceLayer.swift in Sources */,
+				C07175D61FA021360001EA58 /* ViewControllerExtentions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C07175C51FA01D4F0001EA58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07175C61FA01D4F0001EA58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C07175CA1FA01D4F0001EA58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07175CB1FA01D4F0001EA58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C07175CE1FA01D4F0001EA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C07175CF1FA01D4F0001EA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C07175D11FA01D4F0001EA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426ABB3E201DC1D9817F344C /* Pods-pinterest_clone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44L8G96RH5;
+				INFOPLIST_FILE = pinterest_clone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marquavious.pinterest-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C07175D21FA01D4F0001EA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B58AB89D097F2EB13B9F4EA /* Pods-pinterest_clone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44L8G96RH5;
+				INFOPLIST_FILE = pinterest_clone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marquavious.pinterest-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C07175B91FA01D4F0001EA58 /* Build configuration list for PBXProject "pinterest_clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07175CE1FA01D4F0001EA58 /* Debug */,
+				C07175CF1FA01D4F0001EA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07175D01FA01D4F0001EA58 /* Build configuration list for PBXNativeTarget "pinterest_clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07175D11FA01D4F0001EA58 /* Debug */,
+				C07175D21FA01D4F0001EA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C07175B61FA01D4F0001EA58 /* Project object */;
+}
